@@ -10,17 +10,23 @@
     <link rel="stylesheet" href="assets/css/main.css">
 
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,600,700,900" rel="stylesheet">
+
+    <script src="assets/js/main.js"></script>
   </head>
 
   <body>
+    <div id="success-banner" class="hide">
+      Success! We'll keep you in the loop with all our exciting updates.
+    </div>
+
     <div class="main">
       <header>
         <h1>Coming Soon!</h1>
         <p>We're launching soon. Subscribe for email updates!</p>
       </header>
-      <form>
+      <form id="record-email-form">
         <div>
-          <input type="text" spellcheck="false" placeholder="Email...">
+          <input type="email" spellcheck="false" placeholder="Email..." required>
           <input type="submit" value="Notify Me!">
         </div>
       </form>
